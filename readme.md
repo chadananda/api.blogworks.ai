@@ -5,17 +5,17 @@ Interface website for long-running AI API blogging tools
 # Blockworks.ai Setup Instructions
 
 ## Initial Setup
-- [ ] **Create GitHub Repository**: Create a private repository on GitHub named `api.blogworks.ai`.
-- [ ] **Clone the Repository**: Clone the repository to your local machine using `git clone https://github.com/yourusername/api.blogworks.ai.git`.
+- [x] **Create GitHub Repository**: Create a private repository on GitHub named `api.blogworks.ai`.
+- [x] **Clone the Repository**: Clone the repository to your local machine using `git clone https://github.com/yourusername/api.blogworks.ai.git`.
 
 ## Frontend Setup
 ### Astro and TailwindCSS
-- [ ] **Initialize Astro Project**: Run `npm init astro` inside the project directory and follow the setup wizard to create a new Astro project.
-- [ ] **Install TailwindCSS**: Integrate TailwindCSS by running `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest` and then configure it according to the Astro documentation.
-- [ ] **Set Up Svelte**: Install Svelte with `npm install svelte` and configure it to work with Astro.
+- [x] **Initialize Astro Project**: Run `npm init astro` inside the project directory and follow the setup wizard to create a new Astro project.
+- [x] **Install TailwindCSS**: Integrate TailwindCSS by running `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest` and then configure it according to the Astro documentation.
+- [x] **Set Up Svelte**: Install Svelte with `npm install svelte` and configure it to work with Astro.
 
 ### File Structure
-- [ ] **Create Directory Structure**: Set up the following directories:
+- [x] **Create Directory Structure**: Set up the following directories:
   - `src/`: Contains all source files.
   - `src/components/`: Svelte components.
   - `src/pages/`: Astro pages for static and SSR content.
